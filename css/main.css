@@ -131,8 +131,8 @@ pre {
   padding-left: 1.875rem; }
   @media screen and (max-width: 50rem) {
     .wrapper {
-      max-width: -webkit-calc(50rem - (1.875rem));
-      max-width: calc(50rem - (1.875rem));
+      max-width: -webkit-calc(50rem - 1.875rem);
+      max-width: calc(50rem - 1.875rem);
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; } }
 
@@ -149,8 +149,8 @@ pre {
   padding-left: $spacing-unit;*/ }
   @media screen and (max-width: 50rem) {
     .wrapper-header {
-      max-width: -webkit-calc(50rem - (1.875rem));
-      max-width: calc(50rem - (1.875rem));
+      max-width: -webkit-calc(50rem - 1.875rem);
+      max-width: calc(50rem - 1.875rem);
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; } }
 
