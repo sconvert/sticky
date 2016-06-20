@@ -23,7 +23,9 @@ body {
   font-weight: 300;
   color: #111;
   background: #2c4a6c;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  }
   @media screen and (min-width: 37.5rem) {
     body {
       margin: 0 0;
@@ -211,10 +213,10 @@ a .boutique {
   /*padding : 0.5625rem;*/
   z-index: 10;
   width: 100%;
-  -moz-box-shadow: 0rem 0rem 0.625rem 0rem #2c4a6c;
-  -webkit-box-shadow: 0rem 0rem 0.625rem 0rem #2c4a6c;
-  -o-box-shadow: 0rem 0rem 0.625rem 0rem #2c4a6c;
-  box-shadow: 0rem 0rem 0.625rem 0rem #2c4a6c;
+  -moz-box-shadow: 0 0 0.625rem 0 #2c4a6c;
+  -webkit-box-shadow: 0 0 0.625rem 0 #2c4a6c;
+  -o-box-shadow: 0 0 0.625rem 0 #2c4a6c;
+  box-shadow: 0 0 0.625rem 0 #2c4a6c;
   filter: progid:DXImageTransform.Microsoft.Shadow(color=$main-color-1, Direction=180, Strength=10); }
 
 .site-title {
@@ -260,8 +262,8 @@ a .boutique {
       position: absolute;
       top: 1.2em;
       right: 2.5%;
-      margin-left: 0em;
-      margin-right: 0em;
+      margin-left: 0;
+      margin-right: 0;
       z-index: 20;
       background-color: #fdfdfd;
       border: 0.0625rem solid #e8e8e8;
