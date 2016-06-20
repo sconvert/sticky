@@ -1,10 +1,8 @@
 #Sticky menu
 
-2 solutions to implement a sticky menu :
+A solution to implement a sticky menu.
+[See](http://codepen.io/senff/pen/ayGvD)
 
-- http://codepen.io/senff/pen/ayGvD
-
-or this one.
 
 ###1- Description
 Sticks a menu on top of the page whan the user scrolls enought to place it there.
